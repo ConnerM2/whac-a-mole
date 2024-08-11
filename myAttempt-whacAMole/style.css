@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+    background-image: url(../whac-a-mole_Tutorial/whac-a-mole/mario-bg.jpg);
+    background-size: cover;
+}
+
+#board {
+    width: 540px;
+    height: 540px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    background-image: url(../whac-a-mole_Tutorial/whac-a-mole/soil.png);
+    background-size: cover;
+    border: white 10px solid;
+    border-radius: 25px;
+}
+
+#board div {
+    background-image: url(../whac-a-mole_Tutorial/whac-a-mole/pipe.png);
+    background-size: cover;
+    width: 180px;
+    height: 180px;
+}
+
+#board div img {
+    width: 120px;
+    height: 120px;
+}
